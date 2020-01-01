@@ -1,0 +1,296 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div class="container">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/Content/img/kitap.png" Los Angeles" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Content/img/kitap2.png" alt="Chicago" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/Content/img/kitap3.png" width="1100" height="500">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <br /><br />
+
+    <div class="container ">
+        <div class="row">
+
+            @for (var i = 0; i < 8; i++)
+            {
+                <div class="col-3">
+                    <div class="card border-success mb-3 text-center" style="max-width: 200px;">
+                        <img src="~/Content/img/kısbahcesi.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">Kitap Başlığı</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+                            <hr />
+                            <h6 class="text-danger float-left">Kategori</h6>
+                            <h6 class="float-right">45 ₺</h6>
+                        </div>
+                        <div class="card-footer bg-transparent border-success">
+
+                            <div><a href="#" class="btn btn-outline-success">Detay</a></div><br />
+                            <div><a href="#" class="btn btn-outline-success">Sepete Ekle</a></div>                          
+                            
+                        </div>
+                    </div>
+                </div><br />
+            }
+
+        </div>
+    </div>
+    
+
+    @*<div class="container">
+            <h3 class="h3">POGO ÇOCUK </h3>
+            <div class="row">
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-6">
+                            <div class="product-grid7">
+                                <div class="product-image7">
+                                    <a href="#">
+                                        <img class="pic-1" src="~/Content/img/select.png">
+                                        <img class="pic-2" src="~/Content/img/select.png">
+                                    </a>
+
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                    </ul>
+                                    <div class="price">
+                                        $15.00
+                                        <span>$20.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="product-grid7">
+                                <div class="product-image7">
+                                    <a href="#">
+                                        <img class="pic-1" src="~/Content/img/select2.png">
+                                        <img class="pic-2" src="~/Content/img/select2.png">
+                                    </a>
+
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Women's White Shirt</a></h3>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                    </ul>
+                                    <div class="price">$15.00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="product-grid7">
+                                <div class="product-image7">
+                                    <a href="#">
+                                        <img class="pic-1" src="~/Content/img/select3.png">
+                                        <img class="pic-2" src="~/Content/img/select3.png">
+                                    </a>
+
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                    </ul>
+                                    <div class="price">
+                                        $15.00
+                                        <span>$20.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="product-grid7">
+                                <div class="product-image7">
+                                    <a href="#">
+                                        <img class="pic-1" src="~/Content/img/select4.png">
+                                        <img class="pic-2" src="~/Content/img/select4.png">
+                                    </a>
+
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                    </ul>
+                                    <div class="price">
+                                        $15.00
+                                        <span>$20.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="product-grid7">
+                                <div class="product-image7">
+                                    <a href="#">
+                                        <img class="pic-1" src="~/Content/img/select5.png">
+                                        <img class="pic-2" src="~/Content/img/select5.png">
+                                    </a>
+
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                    </ul>
+                                    <div class="price">
+                                        $15.00
+                                        <span>$20.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="product-grid7">
+                                <div class="product-image7">
+                                    <a href="#">
+                                        <img class="pic-1" src="~/Content/img/select6.png">
+                                        <img class="pic-2" src="~/Content/img/select6.png">
+                                    </a>
+
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                                    <ul class="rating">
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                        <li class="fa fa-star"></li>
+                                    </ul>
+                                    <div class="price">
+                                        $15.00
+                                        <span>$20.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4" style="border:1px solid ">
+                    <h4 style="text-align:center">En çok okunanlar</h4><br />
+
+
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="product-image7">
+                                        <a href="#">
+                                            <img class="pic-1" src="~/Content/img/select.png">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+
+                                   <h5 class="title"><a href="#">Men's Blazer</a></h5>
+
+                                </div>
+                            </div>
+
+
+
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid7">
+                            <div class="product-image7">
+                                <a href="#">
+                                    <img class="pic-1" src="~/Content/img/select2.png">
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title"><a href="#">Women's White Shirt</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid7">
+                            <div class="product-image7">
+                                <a href="#">
+                                    <img class="pic-1" src="~/Content/img/select3.png">
+
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid7">
+                            <div class="product-image7">
+                                <a href="#">
+                                    <img class="pic-1" src="~/Content/img/select4.png">
+
+                                </a>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title"><a href="#">Men's Blazer</a></h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>*@
+</body>
+</html> 

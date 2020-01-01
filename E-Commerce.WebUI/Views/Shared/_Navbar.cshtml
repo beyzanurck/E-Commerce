@@ -1,0 +1,49 @@
+﻿<nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+    <a class="navbar-brand" style="padding-left: 70px;" ref="#">
+        <img src="~/Content/img/kitapyurdu2.png" alt="" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand" href="#" style="color:forestgreen; font-family: sans-serif; font-weight:bold; font-size: 28px;">kitapkurdu.com</a>
+
+    <div class="bg-white" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="@Url.Action("Index","Home")">Giriş Yap <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Index","Home")">Üye Ol</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Index","Home")">Listelerim</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="@Url.Action("Index","Home")" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sipariş Takibi
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Siparişlerim</a>
+                    <a class="dropdown-item" href="#">Müşteri Hizmetleri</a>
+                    <a class="dropdown-item" href="#">Havale/EFT</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="@Url.Action("Index","Home")" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Yardım
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Sıkça Sorulan Sorular</a>
+                    <a class="dropdown-item" href="#">Video Yardım</a>
+                    <a class="dropdown-item" href="#">İletişim</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+<hr class="bg-warning" style="height: 25px;"/>
+<br>
