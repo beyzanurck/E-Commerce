@@ -1,0 +1,6 @@
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Entities\bin\Debug\E-Commerce.Entities.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Entities\bin\Debug\E-Commerce.Entities.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Entities\obj\Debug\E-Commerce.Entities.csprojAssemblyReference.cache
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Entities\obj\Debug\E-Commerce.Entities.csproj.CoreCompileInputs.cache
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Entities\obj\Debug\E-Commerce.Entities.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Entities\obj\Debug\E-Commerce.Entities.pdb

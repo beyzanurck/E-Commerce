@@ -1,4 +1,4 @@
-﻿
+﻿@using E_Commerce.Entities
 <!DOCTYPE html>
 
 <html>
@@ -40,257 +40,41 @@
         </div>
     </div>
     <br /><br />
-
-    <div class="container ">
-        <div class="row">
-
-            @for (var i = 0; i < 8; i++)
-            {
-                <div class="col-3">
-                    <div class="card border-success mb-3 text-center" style="max-width: 200px;">
-                        <img src="~/Content/img/kısbahcesi.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-success">Kitap Başlığı</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
-                            <hr />
-                            <h6 class="text-danger float-left">Kategori</h6>
-                            <h6 class="float-right">45 ₺</h6>
-                        </div>
-                        <div class="card-footer bg-transparent border-success">
-
-                            <div><a href="#" class="btn btn-outline-success">Detay</a></div><br />
-                            <div><a href="#" class="btn btn-outline-success">Sepete Ekle</a></div>                          
-                            
-                        </div>
-                    </div>
-                </div><br />
-            }
-
-        </div>
-    </div>
-    
-
-    @*<div class="container">
-            <h3 class="h3">POGO ÇOCUK </h3>
+    @model List<Product>
+    @if (Model.Any())
+    {
+        <div class="container ">
             <div class="row">
-                <div class="col-8">
-                    <div class="row">
-                        <div class="col-md-2 col-sm-6">
-                            <div class="product-grid7">
-                                <div class="product-image7">
-                                    <a href="#">
-                                        <img class="pic-1" src="~/Content/img/select.png">
-                                        <img class="pic-2" src="~/Content/img/select.png">
-                                    </a>
 
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
-                                    <ul class="rating">
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                    </ul>
-                                    <div class="price">
-                                        $15.00
-                                        <span>$20.00</span>
-                                    </div>
-                                </div>
+                @foreach(Product item in Model)
+                {
+                    <div class="col-3">
+                        <div class="card border-success mb-3 text-center" style="max-width: 200px;">
+                            <img src="@item.ProductImage" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-success">@item.ProductName</h5>
+                                <p class="card-text">@item.ProductDescription</p>
+                                <hr />
+                                <h6 class="text-danger float-left">kategori</h6>
+                                <h6 class="float-right">@item.ProductPrice ₺</h6>
+                            </div>
+                            <div class="card-footer bg-transparent border-success">
+
+                                <div><a href="#" class="btn btn-outline-success">Detay</a></div><br />
+                                <div><a href="#" class="btn btn-outline-success">Sepete Ekle</a></div>
+
                             </div>
                         </div>
-                        <div class="col-md-2 col-sm-6">
-                            <div class="product-grid7">
-                                <div class="product-image7">
-                                    <a href="#">
-                                        <img class="pic-1" src="~/Content/img/select2.png">
-                                        <img class="pic-2" src="~/Content/img/select2.png">
-                                    </a>
-
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">Women's White Shirt</a></h3>
-                                    <ul class="rating">
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                    </ul>
-                                    <div class="price">$15.00</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-6">
-                            <div class="product-grid7">
-                                <div class="product-image7">
-                                    <a href="#">
-                                        <img class="pic-1" src="~/Content/img/select3.png">
-                                        <img class="pic-2" src="~/Content/img/select3.png">
-                                    </a>
-
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
-                                    <ul class="rating">
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                    </ul>
-                                    <div class="price">
-                                        $15.00
-                                        <span>$20.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-6">
-                            <div class="product-grid7">
-                                <div class="product-image7">
-                                    <a href="#">
-                                        <img class="pic-1" src="~/Content/img/select4.png">
-                                        <img class="pic-2" src="~/Content/img/select4.png">
-                                    </a>
-
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
-                                    <ul class="rating">
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                    </ul>
-                                    <div class="price">
-                                        $15.00
-                                        <span>$20.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-6">
-                            <div class="product-grid7">
-                                <div class="product-image7">
-                                    <a href="#">
-                                        <img class="pic-1" src="~/Content/img/select5.png">
-                                        <img class="pic-2" src="~/Content/img/select5.png">
-                                    </a>
-
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
-                                    <ul class="rating">
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                    </ul>
-                                    <div class="price">
-                                        $15.00
-                                        <span>$20.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-6">
-                            <div class="product-grid7">
-                                <div class="product-image7">
-                                    <a href="#">
-                                        <img class="pic-1" src="~/Content/img/select6.png">
-                                        <img class="pic-2" src="~/Content/img/select6.png">
-                                    </a>
-
-                                </div>
-                                <div class="product-content">
-                                    <h3 class="title"><a href="#">Men's Blazer</a></h3>
-                                    <ul class="rating">
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                        <li class="fa fa-star"></li>
-                                    </ul>
-                                    <div class="price">
-                                        $15.00
-                                        <span>$20.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4" style="border:1px solid ">
-                    <h4 style="text-align:center">En çok okunanlar</h4><br />
-
-
-
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="product-image7">
-                                        <a href="#">
-                                            <img class="pic-1" src="~/Content/img/select.png">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-
-                                   <h5 class="title"><a href="#">Men's Blazer</a></h5>
-
-                                </div>
-                            </div>
-
-
-
-
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-grid7">
-                            <div class="product-image7">
-                                <a href="#">
-                                    <img class="pic-1" src="~/Content/img/select2.png">
-                                </a>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"><a href="#">Women's White Shirt</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-grid7">
-                            <div class="product-image7">
-                                <a href="#">
-                                    <img class="pic-1" src="~/Content/img/select3.png">
-
-                                </a>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"><a href="#">Men's Blazer</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="product-grid7">
-                            <div class="product-image7">
-                                <a href="#">
-                                    <img class="pic-1" src="~/Content/img/select4.png">
-
-                                </a>
-                            </div>
-                            <div class="product-content">
-                                <h3 class="title"><a href="#">Men's Blazer</a></h3>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                    </div><br />
+                }
 
             </div>
+        </div>
+    }
 
 
-        </div>*@
+
+
 </body>
-</html> 
+</html>
+

@@ -1,0 +1,16 @@
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\bin\Debug\E-Commerce.DAL.dll.config
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\bin\Debug\E-Commerce.DAL.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\bin\Debug\E-Commerce.DAL.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\bin\Debug\E-Commerce.Entities.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\bin\Debug\EntityFramework.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\bin\Debug\E-Commerce.Entities.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\bin\Debug\EntityFramework.xml
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\obj\Debug\E-Commerce.DAL.csprojAssemblyReference.cache
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\obj\Debug\E-Commerce.DAL.csproj.CoreCompileInputs.cache
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\obj\Debug\E-Commerce.DAL.csproj.CopyComplete
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\obj\Debug\E-Commerce.DAL.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\obj\Debug\E-Commerce.DAL.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\obj\Debug\E_Commerce.DAL.Migrations.CreatedTables.resources
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.DAL\obj\Debug\E-Commerce.DAL.csproj.GenerateResource.cache

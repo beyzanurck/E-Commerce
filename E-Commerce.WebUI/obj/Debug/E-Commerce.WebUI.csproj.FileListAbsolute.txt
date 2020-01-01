@@ -67,3 +67,14 @@ C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\o
 C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\obj\Debug\E-Commerce.WebUI.csproj.CopyComplete
 C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\obj\Debug\E-Commerce.WebUI.dll
 C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\obj\Debug\E-Commerce.WebUI.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\bin\E-Commerce.Services.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\bin\E-Commerce.DAL.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\bin\E-Commerce.Entities.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\bin\EntityFramework.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\bin\E-Commerce.Services.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\bin\E-Commerce.DAL.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\bin\E-Commerce.DAL.dll.config
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\bin\E-Commerce.Entities.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\bin\EntityFramework.xml
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.WebUI\bin\EntityFramework.SqlServer.xml

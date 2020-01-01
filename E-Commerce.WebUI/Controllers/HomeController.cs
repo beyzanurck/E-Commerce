@@ -1,4 +1,6 @@
-﻿using System;
+﻿using E_Commerce.Entities;
+using E_Commerce.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +10,20 @@ namespace E_Commerce.WebUI.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
+        private readonly CategoryServices categoryServices;
+        private readonly ProductServices productServices;
+
+        public HomeController()
+        {
+            categoryServices = new CategoryServices();
+            productServices = new ProductServices();
+        }
+
+        [HttpGet]
         public ActionResult Index()
         {
-            return View();
+            List<Product> products = productServices.GetProducts();
+            return View(products);
         }
     }
 }

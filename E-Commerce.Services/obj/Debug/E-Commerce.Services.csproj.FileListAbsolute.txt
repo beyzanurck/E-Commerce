@@ -1,0 +1,16 @@
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\bin\Debug\E-Commerce.Services.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\bin\Debug\E-Commerce.Services.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\bin\Debug\E-Commerce.DAL.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\bin\Debug\E-Commerce.Entities.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\bin\Debug\EntityFramework.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\bin\Debug\E-Commerce.DAL.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\bin\Debug\E-Commerce.DAL.dll.config
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\bin\Debug\E-Commerce.Entities.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\bin\Debug\EntityFramework.xml
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\obj\Debug\E-Commerce.Services.csprojAssemblyReference.cache
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\obj\Debug\E-Commerce.Services.csproj.CoreCompileInputs.cache
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\obj\Debug\E-Commerce.Services.csproj.CopyComplete
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\obj\Debug\E-Commerce.Services.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\E-Commerce\E-Commerce.Services\obj\Debug\E-Commerce.Services.pdb

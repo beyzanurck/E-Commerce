@@ -89,11 +89,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\main.css" />
+    <Content Include="Content\img\bessehir.png" />
+    <Content Include="Content\img\kisbahcesi.png" />
     <Content Include="Content\img\kitap.png" />
     <Content Include="Content\img\kitap2.png" />
     <Content Include="Content\img\kitap3.png" />
     <Content Include="Content\img\kitapyurdu2.png" />
-    <Content Include="Content\img\kısbahcesi.png" />
+    <Content Include="Content\img\kucukprens.png" />
+    <Content Include="Content\img\mimarlik.png" />
+    <Content Include="Content\img\türklerintarihi.png" />
     <Content Include="Content\lib\bootstrapt\bootstrap.css" />
     <Content Include="Content\lib\bootstrapt\bootstrap.js" />
     <Content Include="Content\lib\jQuery\jquery-3.3.1.js" />
@@ -106,6 +110,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\HomeIndexViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -127,7 +132,16 @@
     <Folder Include="App_Data\" />
     <Folder Include="Content\fonts\" />
     <Folder Include="Content\js\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E-Commerce.Entities\E-Commerce.Entities.csproj">
+      <Project>{D8537A9D-4CB1-43E1-9112-28B5FBA7E1EF}</Project>
+      <Name>E-Commerce.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E-Commerce.Services\E-Commerce.Services.csproj">
+      <Project>{661553B5-3F03-4522-9F9E-1A4C3E716D66}</Project>
+      <Name>E-Commerce.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
