@@ -97,7 +97,7 @@
     <Content Include="Content\img\kitapyurdu2.png" />
     <Content Include="Content\img\kucukprens.png" />
     <Content Include="Content\img\mimarlik.png" />
-    <Content Include="Content\img\türklerintarihi.png" />
+    <Content Include="Content\img\turklerintarihi.png" />
     <Content Include="Content\lib\bootstrapt\bootstrap.css" />
     <Content Include="Content\lib\bootstrapt\bootstrap.js" />
     <Content Include="Content\lib\jQuery\jquery-3.3.1.js" />

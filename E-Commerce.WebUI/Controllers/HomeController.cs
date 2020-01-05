@@ -1,5 +1,6 @@
 ﻿using E_Commerce.Entities;
 using E_Commerce.Services;
+using E_Commerce.WebUI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,15 @@ namespace E_Commerce.WebUI.Controllers
         public ActionResult Index()
         {
             List<Product> products = productServices.GetProducts();
-            return View(products);
+            var categories = categoryServices.GetCategories();
+            //return View(products,categories);
+
+            var viewModel = new HomeIndexViewModel()
+            {
+                Products = products,
+                Categories = categories
+            };
+            return View(viewModel);
         }
     }
 }

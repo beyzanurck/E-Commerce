@@ -40,13 +40,34 @@
         </div>
     </div>
     <br /><br />
-    @model List<Product>
-    @if (Model.Any())
+    @model HomeIndexViewModel
+
+    @if (Model.Categories.Any())
     {
+        IEnumerable<Category> orderedCategory = Model.Categories.OrderBy(t => t.CategoryName);
+
+        <div class="row">
+            @foreach (var item in orderedCategory)
+            {
+                <div class="col">
+                    <div class="text-center btn btn-block btn-outline-success mb-4">
+                        @item.CategoryName
+                    </div>
+                </div>                
+            }
+        </div>
+    }
+
+
+    @if (Model.Products.Any())
+    {
+
+        IEnumerable<Product> orderedProduct = Model.Products.OrderBy(t => t.ProductPrice);
+
         <div class="container ">
             <div class="row">
 
-                @foreach(Product item in Model)
+                @foreach(Product item in orderedProduct)
                 {
                     <div class="col-3">
                         <div class="card border-success mb-3 text-center" style="max-width: 200px;">
@@ -55,7 +76,7 @@
                                 <h5 class="card-title text-success">@item.ProductName</h5>
                                 <p class="card-text">@item.ProductDescription</p>
                                 <hr />
-                                <h6 class="text-danger float-left">kategori</h6>
+                                <h6 class="text-danger float-left">@item.Category.CategoryName</h6>
                                 <h6 class="float-right">@item.ProductPrice ₺</h6>
                             </div>
                             <div class="card-footer bg-transparent border-success">
@@ -71,9 +92,6 @@
             </div>
         </div>
     }
-
-
-
 
 </body>
 </html>

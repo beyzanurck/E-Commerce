@@ -16,7 +16,7 @@ namespace E_Commerce.DAL.Management
 
         public List<Product> GetAllProduct()
         {
-            var products = database.Product.ToList();
+            var products = database.Product.Include("Category").ToList();
             return products;
         }
 
