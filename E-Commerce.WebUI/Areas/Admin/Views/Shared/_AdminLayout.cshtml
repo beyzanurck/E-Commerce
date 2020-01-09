@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.AdminTitle</title>
+
+
+
+    @*<link href="~/Content/css/style.css" rel="stylesheet" />*@
+    <link href="~/Content/lib/bootstrapt/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/css/main.css" rel="stylesheet" />
+
+
+    @RenderSection("customAdminStyle", false)
+</head>
+<body class="container-fluid">
+    @Html.Partial("_AdminNavbar")
+    <div class="container">
+        @RenderBody()
+    </div>
+    <script src="~/Content/lib/jQuery/jquery-3.3.1.js"></script>
+    <script src="~/Content/lib/bootstrap/js/bootstarp.js"></script>
+    @RenderSection("customAdminStyle2", false)
+</body>
+</html>

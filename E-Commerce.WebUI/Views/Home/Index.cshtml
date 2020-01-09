@@ -46,16 +46,19 @@
     {
         IEnumerable<Category> orderedCategory = Model.Categories.OrderBy(t => t.CategoryName);
 
-        <div class="row">
-            @foreach (var item in orderedCategory)
-            {
-                <div class="col">
-                    <div class="text-center btn btn-block btn-outline-success mb-4">
-                        @item.CategoryName
-                    </div>
-                </div>                
-            }
-        </div>
+          <div class="container">
+              <div class="row">
+                  @foreach (var item in orderedCategory)
+                  {
+                      <div class="col">
+                          <div class="text-center btn btn-block btn-outline-success mb-4">
+                              @item.CategoryName
+                          </div>
+                      </div>
+                  }
+              </div>
+          </div>
+       
     }
 
 
@@ -83,7 +86,7 @@
 
                                 <div><a href="#" class="btn btn-outline-success">Detay</a></div><br />
                                 <div><a href="#" class="btn btn-outline-success">Sepete Ekle</a></div>
-
+                                @*<img src="~/Content/img/bessehir.png" />*@
                             </div>
                         </div>
                     </div><br />

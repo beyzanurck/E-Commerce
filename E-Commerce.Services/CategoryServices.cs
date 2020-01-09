@@ -18,6 +18,19 @@ namespace E_Commerce.Services
         }
 
         public List<Category> GetCategories() => categoryManagement.GetAllCategories();//kategori kontrolünü yap sonrasında.
-       
+
+        public Category AddCategory(Category category) => categoryManagement.AddCategory(category);
+
+        public Category GetCategory(int id) => categoryManagement.GetCategory(id);
+
+        public void updatedCategory(int id, Category category)
+        {
+            categoryManagement.UpdateCategory(id,category);
+        }
+
+        public void deletedCategory(int id, Category category)
+        {
+            categoryManagement.deletedCategory(id,category);
+        }
     }
 }
